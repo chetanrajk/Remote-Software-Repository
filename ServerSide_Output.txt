@@ -1,0 +1,638 @@
+
+
+ ======================================================
+        Remote Code Repository - Server
+ ======================================================
+
+ Initializing db ......
+
+  Key                       File Name         DateTime                  Author         Payload
+  ------------------------  ----------------  ------------------------  -------------  ------------------------
+  Comm::Comm.h.1            Comm.h.1          Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+    Dependencies:->>  Message::Message.h.1,
+
+  Message::Message.h.1      Message.h.1       Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  Comm::Comm.cpp.1          Comm.cpp.1        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  ::Sockets.cpp.1           Sockets.cpp.1     Fri Aug 31 22:38:59 2018  Justin         ../Storage/Sockets
+  Comm::Comm.cpp.2          Comm.cpp.2        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  Message::Message.cpp.1    Message.cpp.1     Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  ::FileSystem.cpp.1        FileSystem.cpp.1  Fri Aug 31 22:38:59 2018  Robert         ../Storage/FileSys
+    Dependencies:->>  ::Sockets.cpp.1,
+
+  Name           Payload Value                           Check-in Status     Categories
+  -----------    --------------------------------------  ---------------     -----------------------
+  Comm.h.1       ../Storage/Comm/Comm.h.1                Open                Header File,Comm Feature,
+  Message.h.1    ../Storage/Message/Message.h.1          Close               Header File,Message Feature,
+  Sockets.cpp.1  ../Storage/Sockets.cpp.1                Close               Source File,Functionality,
+  Comm.cpp.1     ../Storage/Comm/Comm.cpp.1              Close               Source File,Comm Feature,
+  Comm.cpp.2     ../Storage/Comm/Comm.cpp.2              Close               Source File,Comm Feature,
+  Message.cpp.1  ../Storage/Message/Message.cpp.1        Close               Source File,Message Feature,
+  FileSystem.cpp.../Storage/FileSystem.cpp.1             Close               Source File,Functionality,
+
+---> Server Received message: getDirs from localhost:8082
+
+Server sending response to getDirs request
+
+---> Server Received message: getFiles from localhost:8082
+
+Server sending response to getFiles request
+
+---> Server Received message: getDirs from localhost:8082
+
+=====> Receiving message: "
+
+Server sending response to getDirs requestconnectToServer
+
+---> Server Received message: "
+getFiles from
+
+=====> Receiving message: "doNotReply"
+localhost:8082
+
+Server sending response to getFiles
+
+=====> Receiving message: "fileText request"
+
+
+---> Server Received message: getDirs from localhost:8082
+
+Server sending response to getDirs request
+
+---> Server Received message: getFiles from localhost:8082
+
+Server sending response to getFiles request
+
+---> Server Received message: connectToServer from localhost:8082
+to:localhost:8080
+verbose:connection request
+from:localhost:8082
+command:connectToServer
+
+
+=====> Receiving message: "browseFiles
+
+Received connectToServer request"
+
+
+=====> Receiving message: "browseFiles"
+
+
+=====> Receiving message: "browseFiles"
+
+
+=====> Receiving message: "browseFiles"
+
+
+=====> Receiving message: "browseFiles"
+
+
+=====> Receiving message: "checkOutFile"
+
+
+=====> Receiving message: "checkInFile"
+
+  Receiving file in client path = "G:\MS\Projects\Github\RemoteRepository\ServerPrototype\SaveFiles\Comm.h"
+
+  receiving file block from "Comm.h
+  receiving file block from "Comm.h
+  receiving file block from "Comm.h
+  File received
+
+
+=====> Receiving message: "checkInFile"
+
+  Receiving file in client path = "G:\MS\Projects\Github\RemoteRepository\ServerPrototype\SaveFiles\NewFile.h"
+
+  receiving file block from "NewFile.h
+  receiving file block from "NewFile.h
+  receiving file block from "NewFile.h
+  receiving file block from "NewFile.h
+  receiving file block from "NewFile.h
+  receiving file block from "NewFile.h
+  receiving file block from "NewFile.h
+  File received
+
+
+=====> Receiving message: "checkInFile"
+
+  Receiving file in client path = "G:\MS\Projects\Github\RemoteRepository\ServerPrototype\SaveFiles\Message.cpp"
+
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  receiving file block from "Message.cpp
+  File received
+
+
+=====> Receiving message: "checkInFile"
+
+  Receiving file in client path = "G:\MS\Projects\Github\RemoteRepository\ServerPrototype\SaveFiles\FileSystem.cpp"
+
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  receiving file block from "FileSystem.cpp
+  File received
+
+
+Server sending response to connectToServer request
+to:localhost:8082
+verbose:Server is connected
+from:localhost:8080
+command:connectToServer
+
+
+---> Server Received message: doNotReply from localhost:8082
+to:localhost:8080
+verbose:Do not reply message - one way
+from:localhost:8082
+command:doNotReply
+
+
+Received doNotReply request
+
+Server not sending any reply message
+
+
+---> Server Received message: fileText from localhost:8082
+to:localhost:8080
+verbose:view full file text and metadata
+from:localhost:8082
+command:fileText
+fileName:Comm.h.1
+path:../Storage/Comm
+
+
+Server received fileText request
+
+Server sending response to fileText request
+to:localhost:8082
+verbose:sending full file text and metadata
+from:localhost:8080
+command:fileText
+datetime:Fri Aug 31 22:38:59 2018
+fileName:Comm.h
+sendingFile:Comm.h
+status:Open
+author:John
+categories:Header File-Comm Feature-
+dependencies:Message::Message.h.1-
+version:1
+
+
+---> Server Received message:
+  sending file block from "Comm.hbrowseFiles" from localhost:8082
+  sending file block from "Comm.h
+"to:localhost:8080
+qCategory:
+qParent:
+from:localhost:8082
+verbose:browse files by queries
+qDependency:
+command:browseFiles
+qFileName:Message
+qVersion:
+
+  sending file block from "Comm.h
+
+Server received browseFiles request"
+  sending file block from "Comm.h"
+  File sent
+
+
+Server sending response to browseFiles request
+to:localhost:8082
+verbose:sending files matching given criteria
+from:localhost:8080
+command:browseFiles
+resultFiles:Message.h.1-Message.cpp.1-
+
+
+---> Server Received message: browseFiles from localhost:8082
+to:localhost:8080
+qCategory:
+qParent:
+from:localhost:8082
+verbose:browse files by queries
+qDependency:
+command:browseFiles
+qFileName:Comm
+qVersion:1
+
+
+Server received browseFiles request
+
+Server sending response to browseFiles request
+to:localhost:8082
+verbose:sending files matching given criteria
+from:localhost:8080
+command:browseFiles
+resultFiles:Comm.h.1-Comm.cpp.1-
+
+
+---> Server Received message: browseFiles from localhost:8082
+to:localhost:8080
+qCategory:
+qParent:
+from:localhost:8082
+verbose:browse files by queries
+qDependency:
+command:browseFiles
+qFileName:
+qVersion:Sockets.cpp.1
+
+
+Server received browseFiles request
+
+Server sending response to browseFiles request
+to:localhost:8082
+verbose:sending files matching given criteria
+from:localhost:8080
+command:browseFiles
+resultFiles:Sockets.cpp.1-
+
+
+---> Server Received message: browseFiles from localhost:8082
+to:localhost:8080
+qCategory:Header File
+qParent:
+from:localhost:8082
+verbose:browse files by queries
+qDependency:
+command:browseFiles
+qFileName:
+qVersion:
+
+
+Server received browseFiles request
+
+Server sending response to browseFiles request
+to:localhost:8082
+verbose:sending files matching given criteria
+from:localhost:8080
+command:browseFiles
+resultFiles:Comm.h.1-Message.h.1-
+
+
+---> Server Received message: browseFiles from localhost:8082
+to:localhost:8080
+qCategory:
+qParent:Yes
+from:localhost:8082
+verbose:browse files by queries
+qDependency:
+command:browseFiles
+qFileName:
+qVersion:
+
+
+Server received browseFiles request
+
+Server sending response to browseFiles request
+to:localhost:8082
+verbose:sending files matching given criteria
+from:localhost:8080
+command:browseFiles
+resultFiles:Comm.h.1-Comm.cpp.1-Comm.cpp.2-Message.cpp.1-FileSystem.cpp.1-
+
+
+---> Server Received message: checkOutFile from localhost:8082
+to:localhost:8080
+verbose:checkOut a file
+from:localhost:8082
+command:checkOutFile
+fileName:Comm.cpp.1
+path:../Storage/Comm
+
+
+Server received checkOutFile request:
+
+ Provided details for file to check-out:
+
+ Package name:  Comm
+ File name:  Comm.cpp.1
+ Local Path:  G:\MS\Projects\Github\RemoteRepository\Storage\Comm\Comm.cpp.1
+
+ File has been checked out as :Comm.cpp   ...(Please check Local Storage folder)
+
+Server sending response to checkOutFile request
+to:localhost:8082
+verbose:reply to CheckOut
+from:localhost:8080
+command:checkOutFile
+fileName:Comm.cpp
+sendingFile:Comm.cpp
+
+
+---> Server Received message: checkInFile from localhost:8082
+to:localhost:8080
+dependency:Message::Message.h.1-
+from:localhost:8082
+content-length:0
+verbose:sending checkin file
+command:checkInFile
+status:Open
+sendingFile:Comm.h
+author:John
+path:/Comm
+fileName:Comm.h
+category:Header File-Comm Feature-
+
+  sending file block from "Comm.cpp
+
+Server received checkInFile request:"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  sending file block from "Comm.cpp"
+  File sent
+
+
+ Provided details for file to check-in:
+
+ Package name:  Comm
+ File name:  Comm.h
+ Author:  John
+ Dependencies:  Message::Message.h.1,
+ Status:  Open
+ Dependencies:  Header File, Comm Feature,
+
+ Existing file has been overwritten: Comm.h.1..(Please check Storage folder)
+
+ Metadata has been updated:
+
+  Key                       File Name         DateTime                  Author         Payload
+  ------------------------  ----------------  ------------------------  -------------  ------------------------
+  Comm::Comm.h.1            Comm.h.1          Fri Aug 31 22:39:10 2018  John           ../Storage//Comm/C
+    Dependencies:->>  Message::Message.h.1,
+
+  Message::Message.h.1      Message.h.1       Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  Comm::Comm.cpp.1          Comm.cpp.1        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  ::Sockets.cpp.1           Sockets.cpp.1     Fri Aug 31 22:38:59 2018  Justin         ../Storage/Sockets
+  Comm::Comm.cpp.2          Comm.cpp.2        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  Message::Message.cpp.1    Message.cpp.1     Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  ::FileSystem.cpp.1        FileSystem.cpp.1  Fri Aug 31 22:38:59 2018  Robert         ../Storage/FileSys
+    Dependencies:->>  ::Sockets.cpp.1,
+
+  Name           Payload Value                           Check-in Status     Categories
+  -----------    --------------------------------------  ---------------     -----------------------
+  Comm.h.1       ../Storage//Comm/Comm.h.1               Open                Header File,Comm Feature,
+  Message.h.1    ../Storage/Message/Message.h.1          Close               Header File,Message Feature,
+  Sockets.cpp.1  ../Storage/Sockets.cpp.1                Close               Source File,Functionality,
+  Comm.cpp.1     ../Storage/Comm/Comm.cpp.1              Close               Source File,Comm Feature,
+  Comm.cpp.2     ../Storage/Comm/Comm.cpp.2              Close               Source File,Comm Feature,
+  Message.cpp.1  ../Storage/Message/Message.cpp.1        Close               Source File,Message Feature,
+  FileSystem.cpp.../Storage/FileSystem.cpp.1             Close               Source File,Functionality,
+
+Server sending response to checkInFile request
+to:localhost:8082
+verbose:reply to checkIn
+from:localhost:8080
+command:checkInFile
+
+
+---> Server Received message: checkInFile from localhost:8082
+to:localhost:8080
+dependency:
+from:localhost:8082
+content-length:0
+verbose:sending checkin file
+command:checkInFile
+status:Open
+sendingFile:NewFile.h
+author:Chetan
+path:
+fileName:NewFile.h
+category:Source File-Functionality-
+
+
+Server received checkInFile request:
+
+ Provided details for file to check-in:
+
+ Package name:
+ File name:  NewFile.h
+ Author:  Chetan
+ Dependencies:
+ Status:  Open
+ Dependencies:  Source File, Functionality,
+
+ New file has been Checked-In to repository..(Please check Storage folder)
+
+ Metadata has been updated:
+
+  Key                       File Name         DateTime                  Author         Payload
+  ------------------------  ----------------  ------------------------  -------------  ------------------------
+  Comm::Comm.h.1            Comm.h.1          Fri Aug 31 22:39:10 2018  John           ../Storage//Comm/C
+    Dependencies:->>  Message::Message.h.1,
+
+  Message::Message.h.1      Message.h.1       Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  ::NewFile.h.1             NewFile.h.1       Fri Aug 31 22:39:11 2018  Chetan         ../Storage//NewFil
+  Comm::Comm.cpp.1          Comm.cpp.1        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  ::Sockets.cpp.1           Sockets.cpp.1     Fri Aug 31 22:38:59 2018  Justin         ../Storage/Sockets
+  Comm::Comm.cpp.2          Comm.cpp.2        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  Message::Message.cpp.1    Message.cpp.1     Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  ::FileSystem.cpp.1        FileSystem.cpp.1  Fri Aug 31 22:38:59 2018  Robert         ../Storage/FileSys
+    Dependencies:->>  ::Sockets.cpp.1,
+
+  Name           Payload Value                           Check-in Status     Categories
+  -----------    --------------------------------------  ---------------     -----------------------
+  Comm.h.1       ../Storage//Comm/Comm.h.1               Open                Header File,Comm Feature,
+  NewFile.h.1    ../Storage//NewFile.h.1                 Open                Source File,Functionality,
+  Message.h.1    ../Storage/Message/Message.h.1          Close               Header File,Message Feature,
+  Sockets.cpp.1  ../Storage/Sockets.cpp.1                Close               Source File,Functionality,
+  Comm.cpp.1     ../Storage/Comm/Comm.cpp.1              Close               Source File,Comm Feature,
+  Comm.cpp.2     ../Storage/Comm/Comm.cpp.2              Close               Source File,Comm Feature,
+  Message.cpp.1  ../Storage/Message/Message.cpp.1        Close               Source File,Message Feature,
+  FileSystem.cpp.../Storage/FileSystem.cpp.1             Close               Source File,Functionality,
+
+Server sending response to checkInFile request
+to:localhost:8082
+verbose:reply to checkIn
+from:localhost:8080
+command:checkInFile
+
+
+---> Server Received message: checkInFile from localhost:8082
+to:localhost:8080
+dependency:Message::Message.h.1-
+from:localhost:8082
+content-length:0
+verbose:sending checkin file
+command:checkInFile
+status:Close
+sendingFile:Message.cpp
+author:Parker
+path:/Message
+fileName:Message.cpp
+category:Source File-Message Feature-Functionality-
+
+
+Server received checkInFile request:
+
+ Provided details for file to check-in:
+
+ Package name:  Message
+ File name:  Message.cpp
+ Author:  Parker
+ Dependencies:  Message::Message.h.1,
+ Status:  Close
+ Dependencies:  Source File, Message Feature, Functionality,
+
+ New version of file has been created :Message.cpp.2   ..(Please check Storage folder)
+
+ Metadata has been updated:
+
+  Key                       File Name         DateTime                  Author         Payload
+  ------------------------  ----------------  ------------------------  -------------  ------------------------
+  Comm::Comm.h.1            Comm.h.1          Fri Aug 31 22:39:10 2018  John           ../Storage//Comm/C
+    Dependencies:->>  Message::Message.h.1,
+
+  ::NewFile.h.1             NewFile.h.1       Fri Aug 31 22:39:11 2018  Chetan         ../Storage//NewFil
+  Message::Message.h.1      Message.h.1       Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  ::Sockets.cpp.1           Sockets.cpp.1     Fri Aug 31 22:38:59 2018  Justin         ../Storage/Sockets
+  Comm::Comm.cpp.1          Comm.cpp.1        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  Comm::Comm.cpp.2          Comm.cpp.2        Fri Aug 31 22:38:59 2018  John           ../Storage/Comm/Co
+  Message::Message.cpp.1    Message.cpp.1     Fri Aug 31 22:38:59 2018  Parker         ../Storage/Message
+  Message::Message.cpp.2    Message.cpp.2     Fri Aug 31 22:39:13 2018  Parker         ../Storage//Messag
+    Dependencies:->>  Message::Message.h.1,
+
+  ::FileSystem.cpp.1        FileSystem.cpp.1  Fri Aug 31 22:38:59 2018  Robert         ../Storage/FileSys
+    Dependencies:->>  ::Sockets.cpp.1,
+
+  Name           Payload Value                           Check-in Status     Categories
+  -----------    --------------------------------------  ---------------     -----------------------
+  Comm.h.1       ../Storage//Comm/Comm.h.1               Open                Header File,Comm Feature,
+  NewFile.h.1    ../Storage//NewFile.h.1                 Open                Source File,Functionality,
+  Message.h.1    ../Storage/Message/Message.h.1          Close               Header File,Message Feature,
+  Sockets.cpp.1  ../Storage/Sockets.cpp.1                Close               Source File,Functionality,
+  Comm.cpp.1     ../Storage/Comm/Comm.cpp.1              Close               Source File,Comm Feature,
+  Comm.cpp.2     ../Storage/Comm/Comm.cpp.2              Close               Source File,Comm Feature,
+  Message.cpp.1  ../Storage/Message/Message.cpp.1        Close               Source File,Message Feature,
+  Message.cpp.2  ../Storage//Message/Message.cpp.2       Close               Source File,Message Feature,Functionality,
+  FileSystem.cpp.../Storage/FileSystem.cpp.1             Close               Source File,Functionality,
+
+Server sending response to checkInFile request
+to:localhost:8082
+verbose:reply to checkIn
+from:localhost:8080
+command:checkInFile
+
+
+---> Server Received message: checkInFile from localhost:8082
+to:localhost:8080
+dependency:::Sockets.cpp.1-
+from:localhost:8082
+content-length:0
+verbose:sending checkin file
+command:checkInFile
+status:Close
+sendingFile:FileSystem.cpp
+author:Kadam
+path:
+fileName:FileSystem.cpp
+category:Source File-Functionality-
+
+
+Server received checkInFile request:
+
+ Provided details for file to check-in:
+
+ Package name:
+ File name:  FileSystem.cpp
+ Author:  Kadam
+ Dependencies:  ::Sockets.cpp.1,
+ Status:  Close
+ Dependencies:  Source File, Functionality,
+
+ Person trying to check-in is not owner of the file.
+
+ Check-in denied !!
+
+Server sending response to checkInFile request
+to:localhost:8082
+verbose:reply to checkIn
+from:localhost:8080
+command:checkInFile
+
+
+---> Server Received message: getDirs from localhost:8082
+
+Server sending response to getDirs request
+
+---> Server Received message: getFiles from localhost:8082
+
+Server sending response to getFiles request
+
+---> Server Received message: getDirs from localhost:8082
+
+Server sending response to getDirs request
+
+---> Server Received message: getFiles from localhost:8082
+
+Server sending response to getFiles request
+
+---> Server Received message: getDirs from localhost:8082
+
+Server sending response to getDirs request
+
+---> Server Received message: getFiles from localhost:8082
+
+Server sending response to getFiles request
+
+---> Server Received message: getDirs from localhost:8082
+
+Server sending response to getDirs request
+
+---> Server Received message: getFiles from localhost:8082
+
+Server sending response to getFiles request

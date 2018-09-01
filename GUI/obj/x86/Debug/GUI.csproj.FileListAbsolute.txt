@@ -1,0 +1,149 @@
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe.config
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\bin\x86\Debug\Translater.dll
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\bin\x86\Debug\Translater.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\App.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\MainWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.g.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 3\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe.config
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\bin\x86\Debug\Translater.dll
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\bin\x86\Debug\Translater.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\App.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\MainWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.g.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe.config
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\bin\x86\Debug\Translater.dll
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\bin\x86\Debug\Translater.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\App.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\MainWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.g.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\backup\final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe.config
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\bin\x86\Debug\Translater.dll
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\bin\x86\Debug\Translater.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\App.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\MainWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.g.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Final\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe.config
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\bin\x86\Debug\Translater.dll
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\bin\x86\Debug\Translater.pdb
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\App.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\MainWindow.baml
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.g.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.exe
+G:\MS\Semesters\Semester 2\OOD\Projects\Final Project 4\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.pdb
+G:\MS\Projects\Github\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe.config
+G:\MS\Projects\Github\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.exe
+G:\MS\Projects\Github\RemoteRepository\GUI\bin\x86\Debug\WpfApp1.pdb
+G:\MS\Projects\Github\RemoteRepository\GUI\bin\x86\Debug\Translater.dll
+G:\MS\Projects\Github\RemoteRepository\GUI\bin\x86\Debug\Translater.pdb
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\App.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\BrowseControl.baml
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\CheckInControl.baml
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\CheckOutControl.baml
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\CodePopUpWindow.baml
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\MainWindow.baml
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.g.resources
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.exe
+G:\MS\Projects\Github\RemoteRepository\GUI\obj\x86\Debug\WpfApp1.pdb

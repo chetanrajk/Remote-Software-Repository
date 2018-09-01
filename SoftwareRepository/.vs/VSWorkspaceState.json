@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NoSqlDb (1)",
+    "\\NoSqlDb (1)\\DateTime",
+    "\\NoSqlDb (1)\\DbCore",
+    "\\NoSqlDb (1)\\Edit",
+    "\\NoSqlDb (1)\\Persist",
+    "\\NoSqlDb (1)\\Utilities",
+    "\\NoSqlDb (1)\\Utilities\\TestUtilities",
+    "\\RepositoryCore",
+    "\\TestExecutive"
+  ],
+  "SelectedNode": "\\NoSqlDb (1)\\Utilities\\TestUtilities\\TestUtilities.h",
+  "PreviewInSolutionExplorer": false
+}

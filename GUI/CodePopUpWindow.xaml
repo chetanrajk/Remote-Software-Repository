@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp1.CodePopUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Full file text" Height="700" Width="800" Background="#ddd">
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////
+    // CodePopUpWindow.xaml - Window for viewing full file text          //
+    // ver 1.0                                                           //
+    // Chetanraj Kadam, CSE687 - Object Oriented Design, Spring 2018     //
+    ///////////////////////////////////////////////////////////////////////
+    -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <!-- label -->
+            <RowDefinition Height="*"></RowDefinition>
+            <!-- file text -->
+            <RowDefinition Height="120"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" IsReadOnly="True" Name="codeLabel" TextAlignment="Center" Padding="3" Background="#FFF5F5F5" FontSize="14"></TextBox>
+        <FlowDocumentScrollViewer Grid.Row="1" BorderThickness="1" BorderBrush="Black" IsToolBarVisible="False" VerticalScrollBarVisibility="Auto" >
+            <FlowDocument Name="codeView" FontFamily="Consolas" FontSize="14" PageWidth="800" Background="#FFF5F5F5">
+                <Paragraph Name="main">
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <Grid  Grid.Row="2">
+            <Label Content="Current Status:" HorizontalAlignment="Left" Margin="31,10,0,0" VerticalAlignment="Top" Height="23" Width="91.993"/>
+            <Label Content="Author:" HorizontalAlignment="Left" Margin="66,43.92,0,0" VerticalAlignment="Top" Height="23" Width="56.993" RenderTransformOrigin="0.526,0.132"/>
+            <Label Content="Date and Time:" HorizontalAlignment="Left" Margin="31,74.92,0,0" VerticalAlignment="Top" Height="23" Width="91.993"/>
+            <Label Content="Categories:" HorizontalAlignment="Left" Margin="371,10,0,0" VerticalAlignment="Top" Height="23" Width="74"/>
+            <Label Content="Dependencies:" HorizontalAlignment="Left" Margin="353,43.92,0,0" VerticalAlignment="Top" Height="23" Width="91.993"/>
+            <TextBox Name="dstat" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="144,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#ddd"/>
+            <TextBox x:Name="dauth" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="144,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#ddd"/>
+            <TextBox x:Name="ddate" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="144,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Background="#ddd"/>
+            <TextBox x:Name="dcat" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="450,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="309" Background="#ddd"/>
+            <TextBox x:Name="ddep" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="450,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="309" Background="#ddd"/>
+            <Label Content="Version:" HorizontalAlignment="Left" Margin="388,75,0,0" VerticalAlignment="Top" Height="23" Width="57" RenderTransformOrigin="0.526,0.132"/>
+            <TextBox x:Name="dver" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="450,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#ddd"/>
+
+        </Grid>
+    </Grid>
+</Window>

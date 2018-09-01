@@ -1,0 +1,520 @@
+
+  =====================================
+  Remote Code Repository - Client
+  =====================================
+
+  using CommFactory to create instance of Comm on native heap
+  using CommFactory to invoke IComm::create
+  creating an instance of Comm on the native heap
+  setting saveFilePath to "G:\MS\Projects\Github\RemoteRepository\GUI\SaveFiles"
+  setting sendFilePath to "G:\MS\Projects\Github\RemoteRepository\GUI\SendFiles"
+
+  ===============================================
+            Demonstrating Requirements
+  ===============================================
+
+
+  Demonstrating Requirement No. 1
+  =====================================
+
+  Using Visual Studio 2017 and the standard C++ libraries. Also for client C#, WPF and  C++\CLI is used
+
+
+  Demonstrating Requirement No. 7
+  =====================================
+
+  Following automated test unit is sending requests one by one to demonstrate requirements
+
+
+  Demonstrating Requirement No. 4
+  =====================================
+
+  Sending connect to server message through message-passing communication system
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, connectToServer }
+  { verbose, connection request }
+
+  Demonstrating Requirement No. 5
+  =====================================
+
+  Sending "Do Not Reply" HTTP style one way asynchronous message
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, doNotReply }
+  { verbose, Do not reply message - one way }
+
+  Demonstrating Requirement No. 6
+  =====================================
+
+  Following CheckIn, CheckOut and Browse requests will show sending or receiving block bytes in file transfer
+
+  Demonstrating Requirement No. 3
+  =====================================
+
+  Provided Client GUI that enables user to Check-in, Check-out and Brwose files
+
+  Demonstrating Requirement No. 2
+  =====================================
+
+  Provided a Repository Server that provides functionality to check-in, check-out, and browse
+
+  Following CheckIn, CheckOut and Browse parts will demonstrate each functionality
+
+  This console will display Client side and server console will display Server side
+
+
+  Browse Part
+  =====================
+
+  ----> Case A: Browse through repository and view full file text and metadata of a particular file
+
+  File Name- Comm.h.1
+
+  New window will be opened with full file text and metadata
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, fileText }
+  { fileName, Comm.h.1 }
+  { verbose, view full file text and metadata }
+  { path, ../Storage/Comm }
+
+  ----> Case B: Browse through repository by using filters
+
+  ----> Query 1: Return files matching file name as "Message"
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, browseFiles }
+  { verbose, browse files by queries }
+  { qFileName, Message }
+  { qCategory,  }
+  { qDependency,  }
+  { qVersion,  }
+  { qParent,  }
+
+  ----> Query 2: Return files matching file name as "Comm" and with Version "1"
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, browseFiles }
+  { verbose, browse files by queries }
+  { qFileName, Comm }
+  { qCategory,  }
+  { qDependency,  }
+  { qVersion, 1 }
+  { qParent,  }
+
+  ----> Query 3: Return files whose dependency is "Sockets.cpp.1"
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, browseFiles }
+  { verbose, browse files by queries }
+  { qFileName,  }
+  { qCategory,  }
+  { qDependency,  }
+  { qVersion, Sockets.cpp.1 }
+  { qParent,  }
+
+  ----> Query 4: Return files in a "Header File" category
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, browseFiles }
+  { verbose, browse files by queries }
+  { qFileName,  }
+  { qCategory, Header File }
+  { qDependency,  }
+  { qVersion,  }
+  { qParent,  }
+
+  ----> Query 5: Return all files in any category that have no parents
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, browseFiles }
+  { verbose, browse files by queries }
+  { qFileName,  }
+  { qCategory,  }
+  { qDependency,  }
+  { qVersion,  }
+  { qParent, Yes }
+
+
+  Check-out Part
+  =====================
+
+  ----> Case 1: Check-out a particular file from repository
+
+ File Name: Comm.cpp.1
+
+ File will be checked out in local CheckedOut Files folder without version no.
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, checkOutFile }
+  { fileName, Comm.cpp.1 }
+  { verbose, checkOut a file }
+  { path, ../Storage/Comm }
+
+
+  Check-in Part
+  =====================
+
+  ----> Case 1: Check-in File which is present and in Open status:
+
+ File Name: Comm.h
+
+ Existing file will be overwritten
+
+  CsMessage:
+  { to, localhost:8080 }
+  { from, localhost:8082 }
+  { command, checkInFile }
+  { sendingFile, Comm.h }
+  { path, /Comm }
+  { fileName, Comm.h }
+  { verbose, sending checkin file }
+  { author, John }
+  { dependency, Message::Message.h.1- }
+  { status, Open }
+  { category, Header File-Comm Feature- }
+
+  ----> Case 2: Check-in File which is not present
+
+ File Name: NewFile.cpp
+
+ File will be checkin and so new entry in repository
+
+  sending file block from "Comm.h"
+  sending file block from "Comm.h"
+
+  CsMessage:sending file block from "Comm.h
+  { to", localhost:8080
+  sending file block from "Comm.h }"
+  { from
+  File sent
+, localhost:8082 }
+  { command, checkInFile }
+  { sendingFile, NewFile.h }
+  { path,  }
+  { fileName, NewFile.h }
+  { verbose, sending checkin file }
+  { author, Chetan }
+  { dependency,  }
+  { status, Open }
+  { category, Source File-Functionality- }
+
+  ----> Case 3: Check-in File which is in Close status. User has given new dependency and category here
+
+ File Name: Message.cpp
+
+
+ New version of file will be created.
+  sending file block from "NewFile.h"
+  sending file block from "NewFile.h"
+
+  CsMessage: sending file block from "NewFile.h"
+  { to
+  sending file block from "NewFile.h, "localhost:8080 }
+  sending file block from "NewFile.h
+  { from", localhost:8082 }
+  sending file block from "NewFile.h
+  { command", checkInFile }
+  sending file block from "NewFile.h
+  { sendingFile", Message.cpp }
+  sending file block from "NewFile.h
+  { path", /Message }
+  { fileName
+  File sent
+, Message.cpp }
+  { verbose, sending checkin file }
+  { author, Parker }
+  { dependency, Message::Message.h.1- }
+  { status, Close }
+  { category, Source File-Message Feature-Functionality- }
+
+  ----> Case 4: Check-in File which is present but CheckIn person is not author of the file
+
+ File Name: FileSystem.cpp
+
+
+ So CheckIn will be denied..!!
+sending file block from "Message.cpp"
+  sending file block from "Message.cpp"
+
+  CsMessage:sending file block from "Message.cpp
+  { to, "localhost:8080 }
+  { from
+  sending file block from "Message.cpp, "localhost:8082 }
+  sending file block from "Message.cpp
+  { command", checkInFile }
+  { sendingFile
+  sending file block from "Message.cpp, "FileSystem.cpp
+  sending file block from "Message.cpp" }
+  { path
+  sending file block from "Message.cpp",  }
+  { fileName
+  sending file block from "Message.cpp, "FileSystem.cpp }
+  { verbose
+  File sent
+, sending checkin file }
+  { author, Kadam }
+  { dependency, ::Sockets.cpp.1- }
+  { status, Close }
+  { category, Source File-Functionality- }
+
+
+===== This automated test unit demonstrated main cases in CheckIn, CheckOut and Browse parts  =====
+
+===== Please use GUI window for your demonstration of Remote Code Repository =====
+
+
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  sending file block from "FileSystem.cpp"
+  File sent
+
+
+=====> Receiving message: "connectToServer"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, Server is connected }
+  { command, connectToServer }
+
+  Received response from server to connectToServer request...!!
+
+
+=====> Receiving message: "fileText"
+
+  Receiving file in client path = "G:\MS\Projects\Github\RemoteRepository\GUI\SaveFiles\Comm.h"
+
+  receiving file block from "Comm.h
+  receiving file block from "Comm.h
+  receiving file block from "Comm.h
+  File received
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, sending full file text and metadata }
+  { content-length, 0 }
+  { command, fileText }
+  { fileName, Comm.h }
+  { datetime, Fri Aug 31 22:38:59 2018 }
+  { status, Open }
+  { sendingFile, Comm.h }
+  { author, John }
+  { categories, Header File-Comm Feature- }
+  { dependencies, Message::Message.h.1- }
+  { version, 1 }
+
+
+=====> Receiving message: "browseFiles"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, sending files matching given criteria }
+  { command, browseFiles }
+  { resultFiles, Message.h.1-Message.cpp.1- }
+
+  Received Files as a result of a Query:
+
+  File: Message.h.1
+  File: Message.cpp.1
+  File:
+
+  Result File List updated on GUI
+
+
+=====> Receiving message: "browseFiles"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, sending files matching given criteria }
+  { command, browseFiles }
+  { resultFiles, Comm.h.1-Comm.cpp.1- }
+
+  Received Files as a result of a Query:
+
+  File: Comm.h.1
+  File: Comm.cpp.1
+  File:
+
+  Result File List updated on GUI
+
+
+=====> Receiving message: "browseFiles"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, sending files matching given criteria }
+  { command, browseFiles }
+  { resultFiles, Sockets.cpp.1- }
+
+  Received Files as a result of a Query:
+
+  File: Sockets.cpp.1
+  File:
+
+  Result File List updated on GUI
+
+
+=====> Receiving message: "browseFiles"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, sending files matching given criteria }
+  { command, browseFiles }
+  { resultFiles, Comm.h.1-Message.h.1- }
+
+  Received Files as a result of a Query:
+
+  File: Comm.h.1
+  File: Message.h.1
+  File:
+
+  Result File List updated on GUI
+
+
+=====> Receiving message: "browseFiles"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, sending files matching given criteria }
+  { command, browseFiles }
+  { resultFiles, Comm.h.1-Comm.cpp.1-Comm.cpp.2-Message.cpp.1-FileSystem.cpp.1- }
+
+  Received Files as a result of a Query:
+
+  File: Comm.h.1
+  File: Comm.cpp.1
+  File: Comm.cpp.2
+  File: Message.cpp.1
+  File: FileSystem.cpp.1
+  File:
+
+  Result File List updated on GUI
+
+
+=====> Receiving message: "checkOutFile"
+
+  Receiving file in client path = "G:\MS\Projects\Github\RemoteRepository\GUI\SaveFiles\Comm.cpp"
+
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  receiving file block from "Comm.cpp
+  File received
+
+  CsMessage:
+  { to, localhost:8082 }
+  { content-length, 0 }
+  { verbose, reply to CheckOut }
+  { from, localhost:8080 }
+  { command, checkOutFile }
+  { fileName, Comm.cpp }
+  { sendingFile, Comm.cpp }
+
+
+=====> Receiving message: "checkInFile"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, reply to checkIn }
+  { command, checkInFile }
+
+
+=====> Receiving message: "checkInFile"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, reply to checkIn }
+  { command, checkInFile }
+
+
+=====> Receiving message: "checkInFile"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, reply to checkIn }
+  { command, checkInFile }
+
+
+=====> Receiving message: "checkInFile"
+
+  CsMessage:
+  { to, localhost:8082 }
+  { from, localhost:8080 }
+  { verbose, reply to checkIn }
+  { command, checkInFile }
